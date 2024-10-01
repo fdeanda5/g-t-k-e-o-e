@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+    margin-top: 10px; /* Space between header and image */
+}
+
+main {
+    margin-top: 20px;
+    text-align: center; /* Center the main content */
+}
+
+h2 {
+    margin-top: 20px;
+}
+#interactive-poll {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#pollForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pollForm label {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
